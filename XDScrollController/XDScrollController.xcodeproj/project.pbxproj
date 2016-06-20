@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2310390A1D17C381003F1B86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 231039091D17C381003F1B86 /* main.m */; };
+		231039151D17C381003F1B86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 231039141D17C381003F1B86 /* Assets.xcassets */; };
+		231039181D17C381003F1B86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 231039161D17C381003F1B86 /* LaunchScreen.storyboard */; };
+		231039261D17C3D9003F1B86 /* Function_main.png in Resources */ = {isa = PBXBuildFile; fileRef = 231039201D17C3D9003F1B86 /* Function_main.png */; };
+		231039271D17C3D9003F1B86 /* main_select.png in Resources */ = {isa = PBXBuildFile; fileRef = 231039211D17C3D9003F1B86 /* main_select.png */; };
+		231039281D17C3D9003F1B86 /* tabbar_limitfree.png in Resources */ = {isa = PBXBuildFile; fileRef = 231039221D17C3D9003F1B86 /* tabbar_limitfree.png */; };
+		231039291D17C3D9003F1B86 /* tabbar_limitfree_press.png in Resources */ = {isa = PBXBuildFile; fileRef = 231039231D17C3D9003F1B86 /* tabbar_limitfree_press.png */; };
+		2310392A1D17C3D9003F1B86 /* tabbar_setting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 231039241D17C3D9003F1B86 /* tabbar_setting@2x.png */; };
+		2310392B1D17C3D9003F1B86 /* tabbar_setting_hl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 231039251D17C3D9003F1B86 /* tabbar_setting_hl@2x.png */; };
+		231039311D17C3E7003F1B86 /* XDContainerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2310392E1D17C3E7003F1B86 /* XDContainerController.m */; };
+		231039321D17C3E7003F1B86 /* XDTopBarScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 231039301D17C3E7003F1B86 /* XDTopBarScrollView.m */; };
+		2310393A1D17C3F1003F1B86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 231039351D17C3F1003F1B86 /* AppDelegate.m */; };
+		2310393B1D17C3F1003F1B86 /* XDBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 231039371D17C3F1003F1B86 /* XDBaseController.m */; };
+		2310393C1D17C3F1003F1B86 /* XDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 231039391D17C3F1003F1B86 /* XDTabBarController.m */; };
+		231039401D17C3F8003F1B86 /* XDNineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2310393F1D17C3F8003F1B86 /* XDNineController.m */; };
+		231039441D17C3FE003F1B86 /* XDEightController.m in Sources */ = {isa = PBXBuildFile; fileRef = 231039431D17C3FE003F1B86 /* XDEightController.m */; };
+		231039481D17C40A003F1B86 /* XDSevenController.m in Sources */ = {isa = PBXBuildFile; fileRef = 231039471D17C40A003F1B86 /* XDSevenController.m */; };
+		2310394C1D17C411003F1B86 /* XDSixController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2310394B1D17C411003F1B86 /* XDSixController.m */; };
+		231039501D17C41F003F1B86 /* XDFiveController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2310394F1D17C41F003F1B86 /* XDFiveController.m */; };
+		231039541D17C425003F1B86 /* XDFourController.m in Sources */ = {isa = PBXBuildFile; fileRef = 231039531D17C425003F1B86 /* XDFourController.m */; };
+		231039581D17C42E003F1B86 /* XDThreeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 231039571D17C42E003F1B86 /* XDThreeController.m */; };
+		2310395C1D17C434003F1B86 /* XDSecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2310395B1D17C434003F1B86 /* XDSecondController.m */; };
+		231039601D17C43E003F1B86 /* XDFirstController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2310395F1D17C43E003F1B86 /* XDFirstController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		231039051D17C381003F1B86 /* XDScrollController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XDScrollController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		231039091D17C381003F1B86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		231039141D17C381003F1B86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		231039171D17C381003F1B86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		231039191D17C381003F1B86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		231039201D17C3D9003F1B86 /* Function_main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Function_main.png; sourceTree = "<group>"; };
+		231039211D17C3D9003F1B86 /* main_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_select.png; sourceTree = "<group>"; };
+		231039221D17C3D9003F1B86 /* tabbar_limitfree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_limitfree.png; sourceTree = "<group>"; };
+		231039231D17C3D9003F1B86 /* tabbar_limitfree_press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_limitfree_press.png; sourceTree = "<group>"; };
+		231039241D17C3D9003F1B86 /* tabbar_setting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_setting@2x.png"; sourceTree = "<group>"; };
+		231039251D17C3D9003F1B86 /* tabbar_setting_hl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_setting_hl@2x.png"; sourceTree = "<group>"; };
+		2310392D1D17C3E7003F1B86 /* XDContainerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDContainerController.h; sourceTree = "<group>"; };
+		2310392E1D17C3E7003F1B86 /* XDContainerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDContainerController.m; sourceTree = "<group>"; };
+		2310392F1D17C3E7003F1B86 /* XDTopBarScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDTopBarScrollView.h; sourceTree = "<group>"; };
+		231039301D17C3E7003F1B86 /* XDTopBarScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDTopBarScrollView.m; sourceTree = "<group>"; };
+		231039341D17C3F1003F1B86 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		231039351D17C3F1003F1B86 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		231039361D17C3F1003F1B86 /* XDBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDBaseController.h; sourceTree = "<group>"; };
+		231039371D17C3F1003F1B86 /* XDBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDBaseController.m; sourceTree = "<group>"; };
+		231039381D17C3F1003F1B86 /* XDTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDTabBarController.h; sourceTree = "<group>"; };
+		231039391D17C3F1003F1B86 /* XDTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDTabBarController.m; sourceTree = "<group>"; };
+		2310393E1D17C3F8003F1B86 /* XDNineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDNineController.h; sourceTree = "<group>"; };
+		2310393F1D17C3F8003F1B86 /* XDNineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDNineController.m; sourceTree = "<group>"; };
+		231039421D17C3FE003F1B86 /* XDEightController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDEightController.h; sourceTree = "<group>"; };
+		231039431D17C3FE003F1B86 /* XDEightController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDEightController.m; sourceTree = "<group>"; };
+		231039461D17C40A003F1B86 /* XDSevenController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDSevenController.h; sourceTree = "<group>"; };
+		231039471D17C40A003F1B86 /* XDSevenController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDSevenController.m; sourceTree = "<group>"; };
+		2310394A1D17C411003F1B86 /* XDSixController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDSixController.h; sourceTree = "<group>"; };
+		2310394B1D17C411003F1B86 /* XDSixController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDSixController.m; sourceTree = "<group>"; };
+		2310394E1D17C41F003F1B86 /* XDFiveController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDFiveController.h; sourceTree = "<group>"; };
+		2310394F1D17C41F003F1B86 /* XDFiveController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDFiveController.m; sourceTree = "<group>"; };
+		231039521D17C425003F1B86 /* XDFourController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDFourController.h; sourceTree = "<group>"; };
+		231039531D17C425003F1B86 /* XDFourController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDFourController.m; sourceTree = "<group>"; };
+		231039561D17C42E003F1B86 /* XDThreeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDThreeController.h; sourceTree = "<group>"; };
+		231039571D17C42E003F1B86 /* XDThreeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDThreeController.m; sourceTree = "<group>"; };
+		2310395A1D17C434003F1B86 /* XDSecondController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDSecondController.h; sourceTree = "<group>"; };
+		2310395B1D17C434003F1B86 /* XDSecondController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDSecondController.m; sourceTree = "<group>"; };
+		2310395E1D17C43E003F1B86 /* XDFirstController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDFirstController.h; sourceTree = "<group>"; };
+		2310395F1D17C43E003F1B86 /* XDFirstController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDFirstController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		231039021D17C381003F1B86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		231038FC1D17C381003F1B86 = {
+			isa = PBXGroup;
+			children = (
+				231039071D17C381003F1B86 /* XDScrollController */,
+				231039061D17C381003F1B86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		231039061D17C381003F1B86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				231039051D17C381003F1B86 /* XDScrollController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		231039071D17C381003F1B86 /* XDScrollController */ = {
+			isa = PBXGroup;
+			children = (
+				2310395D1D17C43E003F1B86 /* First */,
+				231039591D17C434003F1B86 /* Second */,
+				231039551D17C42E003F1B86 /* Three */,
+				231039511D17C425003F1B86 /* Four */,
+				2310394D1D17C41F003F1B86 /* Five */,
+				231039491D17C411003F1B86 /* Six */,
+				231039451D17C40A003F1B86 /* Seven */,
+				231039411D17C3FE003F1B86 /* Eight */,
+				2310393D1D17C3F8003F1B86 /* Nine */,
+				231039331D17C3F1003F1B86 /* Othres */,
+				2310392C1D17C3E7003F1B86 /* Third */,
+				2310391F1D17C3D9003F1B86 /* Resource */,
+				231039081D17C381003F1B86 /* Supporting Files */,
+			);
+			path = XDScrollController;
+			sourceTree = "<group>";
+		};
+		231039081D17C381003F1B86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				231039141D17C381003F1B86 /* Assets.xcassets */,
+				231039161D17C381003F1B86 /* LaunchScreen.storyboard */,
+				231039191D17C381003F1B86 /* Info.plist */,
+				231039091D17C381003F1B86 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2310391F1D17C3D9003F1B86 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				231039201D17C3D9003F1B86 /* Function_main.png */,
+				231039211D17C3D9003F1B86 /* main_select.png */,
+				231039221D17C3D9003F1B86 /* tabbar_limitfree.png */,
+				231039231D17C3D9003F1B86 /* tabbar_limitfree_press.png */,
+				231039241D17C3D9003F1B86 /* tabbar_setting@2x.png */,
+				231039251D17C3D9003F1B86 /* tabbar_setting_hl@2x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		2310392C1D17C3E7003F1B86 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				2310392D1D17C3E7003F1B86 /* XDContainerController.h */,
+				2310392E1D17C3E7003F1B86 /* XDContainerController.m */,
+				2310392F1D17C3E7003F1B86 /* XDTopBarScrollView.h */,
+				231039301D17C3E7003F1B86 /* XDTopBarScrollView.m */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		231039331D17C3F1003F1B86 /* Othres */ = {
+			isa = PBXGroup;
+			children = (
+				231039341D17C3F1003F1B86 /* AppDelegate.h */,
+				231039351D17C3F1003F1B86 /* AppDelegate.m */,
+				231039361D17C3F1003F1B86 /* XDBaseController.h */,
+				231039371D17C3F1003F1B86 /* XDBaseController.m */,
+				231039381D17C3F1003F1B86 /* XDTabBarController.h */,
+				231039391D17C3F1003F1B86 /* XDTabBarController.m */,
+			);
+			path = Othres;
+			sourceTree = "<group>";
+		};
+		2310393D1D17C3F8003F1B86 /* Nine */ = {
+			isa = PBXGroup;
+			children = (
+				2310393E1D17C3F8003F1B86 /* XDNineController.h */,
+				2310393F1D17C3F8003F1B86 /* XDNineController.m */,
+			);
+			path = Nine;
+			sourceTree = "<group>";
+		};
+		231039411D17C3FE003F1B86 /* Eight */ = {
+			isa = PBXGroup;
+			children = (
+				231039421D17C3FE003F1B86 /* XDEightController.h */,
+				231039431D17C3FE003F1B86 /* XDEightController.m */,
+			);
+			path = Eight;
+			sourceTree = "<group>";
+		};
+		231039451D17C40A003F1B86 /* Seven */ = {
+			isa = PBXGroup;
+			children = (
+				231039461D17C40A003F1B86 /* XDSevenController.h */,
+				231039471D17C40A003F1B86 /* XDSevenController.m */,
+			);
+			path = Seven;
+			sourceTree = "<group>";
+		};
+		231039491D17C411003F1B86 /* Six */ = {
+			isa = PBXGroup;
+			children = (
+				2310394A1D17C411003F1B86 /* XDSixController.h */,
+				2310394B1D17C411003F1B86 /* XDSixController.m */,
+			);
+			path = Six;
+			sourceTree = "<group>";
+		};
+		2310394D1D17C41F003F1B86 /* Five */ = {
+			isa = PBXGroup;
+			children = (
+				2310394E1D17C41F003F1B86 /* XDFiveController.h */,
+				2310394F1D17C41F003F1B86 /* XDFiveController.m */,
+			);
+			path = Five;
+			sourceTree = "<group>";
+		};
+		231039511D17C425003F1B86 /* Four */ = {
+			isa = PBXGroup;
+			children = (
+				231039521D17C425003F1B86 /* XDFourController.h */,
+				231039531D17C425003F1B86 /* XDFourController.m */,
+			);
+			path = Four;
+			sourceTree = "<group>";
+		};
+		231039551D17C42E003F1B86 /* Three */ = {
+			isa = PBXGroup;
+			children = (
+				231039561D17C42E003F1B86 /* XDThreeController.h */,
+				231039571D17C42E003F1B86 /* XDThreeController.m */,
+			);
+			path = Three;
+			sourceTree = "<group>";
+		};
+		231039591D17C434003F1B86 /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				2310395A1D17C434003F1B86 /* XDSecondController.h */,
+				2310395B1D17C434003F1B86 /* XDSecondController.m */,
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
+		2310395D1D17C43E003F1B86 /* First */ = {
+			isa = PBXGroup;
+			children = (
+				2310395E1D17C43E003F1B86 /* XDFirstController.h */,
+				2310395F1D17C43E003F1B86 /* XDFirstController.m */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		231039041D17C381003F1B86 /* XDScrollController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2310391C1D17C381003F1B86 /* Build configuration list for PBXNativeTarget "XDScrollController" */;
+			buildPhases = (
+				231039011D17C381003F1B86 /* Sources */,
+				231039021D17C381003F1B86 /* Frameworks */,
+				231039031D17C381003F1B86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XDScrollController;
+			productName = XDScrollController;
+			productReference = 231039051D17C381003F1B86 /* XDScrollController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		231038FD1D17C381003F1B86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XD;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = xiaodai;
+				TargetAttributes = {
+					231039041D17C381003F1B86 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 231039001D17C381003F1B86 /* Build configuration list for PBXProject "XDScrollController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 231038FC1D17C381003F1B86;
+			productRefGroup = 231039061D17C381003F1B86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				231039041D17C381003F1B86 /* XDScrollController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		231039031D17C381003F1B86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231039261D17C3D9003F1B86 /* Function_main.png in Resources */,
+				2310392B1D17C3D9003F1B86 /* tabbar_setting_hl@2x.png in Resources */,
+				231039181D17C381003F1B86 /* LaunchScreen.storyboard in Resources */,
+				231039271D17C3D9003F1B86 /* main_select.png in Resources */,
+				231039291D17C3D9003F1B86 /* tabbar_limitfree_press.png in Resources */,
+				231039281D17C3D9003F1B86 /* tabbar_limitfree.png in Resources */,
+				231039151D17C381003F1B86 /* Assets.xcassets in Resources */,
+				2310392A1D17C3D9003F1B86 /* tabbar_setting@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		231039011D17C381003F1B86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2310393A1D17C3F1003F1B86 /* AppDelegate.m in Sources */,
+				231039321D17C3E7003F1B86 /* XDTopBarScrollView.m in Sources */,
+				231039601D17C43E003F1B86 /* XDFirstController.m in Sources */,
+				2310390A1D17C381003F1B86 /* main.m in Sources */,
+				231039311D17C3E7003F1B86 /* XDContainerController.m in Sources */,
+				2310393B1D17C3F1003F1B86 /* XDBaseController.m in Sources */,
+				231039541D17C425003F1B86 /* XDFourController.m in Sources */,
+				231039401D17C3F8003F1B86 /* XDNineController.m in Sources */,
+				2310395C1D17C434003F1B86 /* XDSecondController.m in Sources */,
+				2310393C1D17C3F1003F1B86 /* XDTabBarController.m in Sources */,
+				231039581D17C42E003F1B86 /* XDThreeController.m in Sources */,
+				231039441D17C3FE003F1B86 /* XDEightController.m in Sources */,
+				231039501D17C41F003F1B86 /* XDFiveController.m in Sources */,
+				2310394C1D17C411003F1B86 /* XDSixController.m in Sources */,
+				231039481D17C40A003F1B86 /* XDSevenController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		231039161D17C381003F1B86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				231039171D17C381003F1B86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2310391A1D17C381003F1B86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2310391B1D17C381003F1B86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2310391D1D17C381003F1B86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XDScrollController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = daixiao.XDScrollController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2310391E1D17C381003F1B86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XDScrollController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = daixiao.XDScrollController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		231039001D17C381003F1B86 /* Build configuration list for PBXProject "XDScrollController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2310391A1D17C381003F1B86 /* Debug */,
+				2310391B1D17C381003F1B86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2310391C1D17C381003F1B86 /* Build configuration list for PBXNativeTarget "XDScrollController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2310391D1D17C381003F1B86 /* Debug */,
+				2310391E1D17C381003F1B86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 231038FD1D17C381003F1B86 /* Project object */;
+}
