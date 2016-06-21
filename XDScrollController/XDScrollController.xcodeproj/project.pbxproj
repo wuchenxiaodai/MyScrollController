@@ -30,6 +30,7 @@
 		231039581D17C42E003F1B86 /* XDThreeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 231039571D17C42E003F1B86 /* XDThreeController.m */; };
 		2310395C1D17C434003F1B86 /* XDSecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2310395B1D17C434003F1B86 /* XDSecondController.m */; };
 		231039601D17C43E003F1B86 /* XDFirstController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2310395F1D17C43E003F1B86 /* XDFirstController.m */; };
+		2385FB831D18E19E0016FFDD /* yanshi.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2385FB821D18E19E0016FFDD /* yanshi.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		2310395B1D17C434003F1B86 /* XDSecondController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDSecondController.m; sourceTree = "<group>"; };
 		2310395E1D17C43E003F1B86 /* XDFirstController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDFirstController.h; sourceTree = "<group>"; };
 		2310395F1D17C43E003F1B86 /* XDFirstController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDFirstController.m; sourceTree = "<group>"; };
+		2385FB821D18E19E0016FFDD /* yanshi.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = yanshi.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		231038FC1D17C381003F1B86 = {
 			isa = PBXGroup;
 			children = (
+				2385FB811D18E19E0016FFDD /* images */,
 				231039071D17C381003F1B86 /* XDScrollController */,
 				231039061D17C381003F1B86 /* Products */,
 			);
@@ -250,6 +253,14 @@
 			path = First;
 			sourceTree = "<group>";
 		};
+		2385FB811D18E19E0016FFDD /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2385FB821D18E19E0016FFDD /* yanshi.gif */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -309,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				231039261D17C3D9003F1B86 /* Function_main.png in Resources */,
+				2385FB831D18E19E0016FFDD /* yanshi.gif in Resources */,
 				2310392B1D17C3D9003F1B86 /* tabbar_setting_hl@2x.png in Resources */,
 				231039181D17C381003F1B86 /* LaunchScreen.storyboard in Resources */,
 				231039271D17C3D9003F1B86 /* main_select.png in Resources */,
@@ -479,6 +491,7 @@
 				2310391E1D17C381003F1B86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
